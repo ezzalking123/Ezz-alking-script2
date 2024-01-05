@@ -1,0 +1,30 @@
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Activated";
+    Text = "thanks to you used the script"; -- ARAB TEAM
+    Duration = 5;
+})
+
+
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ezzalking. Eg 2", "BloodTheme")
+local Tab = Window:NewTab("scripts")
+local Section = Tab:NewSection("creat by ezzalking")
+Section:NewButton("Breakingpoint", "kill all aimbot", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack.lua"))()
+end)
+Section:NewButton("Breaking point'2'", "ButtonInfo", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
+end)
+Section:NewButton("my resturent"1"", "ButtonInfo", function()
+    print("Clicked")loadstring(game:HttpGet("https://gist.githubusercontent.com/SpencerDevv/7a3cbe25d13425f19171ab3181a20ff2/raw/f6680f70ba3c91a57f8d5b56737d74a83cc45d15/test4"))()
+end)
+Section:NewButton("my resturent"2"", "ButtonInfo", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/MyRestaurant"))()
+end)
+Section:NewButton("answer or die", "hack learner ", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/S-WARE'))()
+end)
